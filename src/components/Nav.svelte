@@ -51,11 +51,11 @@
 <nav>
 	<ul>
 		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='acceuil'>Acceuil</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='images'>Bibliotèque d'Images</a></li>
-		<li><a rel=prefetch aria-current='{segment === "about" ? "page" : undefined}' href='carte'>Les Grands Lieux de la Terre du Milieu</a></li>
+		<li><a aria-current='{segment === "images" ? "page" : undefined}' href='images'>Bibliotèque d'Images</a></li>
+		<li><a rel=prefetch aria-current='{segment === "personnages" ? "page" : undefined}' href='personnages'>Les Personnages principaux</a></li>
+		<li><a rel=prefetch aria-current='{segment === "carte" ? "page" : undefined}' href='carte'>Les Grands Lieux de la Terre du Milieu</a></li>
+		<li><a rel=prefetch aria-current='{segment === "quizz" ? "page" : undefined}' href='quizz'>Test de connaissances</a></li>
+		<li><a rel=prefetch aria-current='{segment === "musique" ? "page" : undefined}' href='musique'>Univers musical</a></li>
 
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li>
 	</ul>
 </nav>

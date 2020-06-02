@@ -1,5 +1,5 @@
 <style>
-	h1, figure, p {
+	h1, figure {
 		text-align: center;
 		margin: 0 auto;
 	}
@@ -21,10 +21,6 @@
 		margin: 0 0 1em 0;
 	}
 
-	p {
-		margin: 1em auto;
-	}
-
 	@media (min-width: 480px) {
 		h1 {
 			font-size: 4em;
@@ -42,4 +38,5 @@
 	<img alt='La maison de Bilbon dans la Comté' src='hobbit-home.jpg'>
 	<figcaption>Bienvenu en Terre du Milieu</figcaption>
 </figure>
+
 

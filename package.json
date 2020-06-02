@@ -7,7 +7,7 @@
     "dev:tailwindcss": "postcss static/tailwind.css -o static/main.css -w",
     "build:tailwindcss": "NODE_ENV=production postcss static/tailwind.css -o static/main.css",
     "build": "npm run build:tailwindcss && sapper build --legacy",
-    "export": "npm run build:tailwindcss && sapper export --legacy",   
+    "export": "npm run build:tailwindcss && sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
@@ -16,6 +16,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
     "compression": "^1.7.1",
+    "mongodb": "^3.5.8",
     "polka": "next",
     "sirv": "^0.4.0"
   },
