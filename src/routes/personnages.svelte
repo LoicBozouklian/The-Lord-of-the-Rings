@@ -43,6 +43,6 @@
 <div name="les Créatures">
 	<div name = "les Aigles"></div>
 	<div name = "les montures Nazgul"></div>
-	<div name = "les Ouargs"></div>
+	<div name = "les Wargs"></div>
 	<div name = "les Autres"></div>
 </div>

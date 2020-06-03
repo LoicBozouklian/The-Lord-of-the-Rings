@@ -35,7 +35,7 @@
 <h1> Le Seigneur des Anneaux </h1>
 
 <figure>
-	<img alt='La maison de Bilbon dans la Comté' src='hobbit-home.jpg'>
+	<img alt='Argonath' src='argonath.jpg'>
 	<figcaption>Bienvenu en Terre du Milieu</figcaption>
 </figure>
 

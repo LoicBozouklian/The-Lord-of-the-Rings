@@ -48,7 +48,7 @@
 	}
 </style>
 
-<nav>
+<nav class="bg-black font-bold text-red-600">
 	<ul>
 		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='acceuil'>Acceuil</a></li>
 		<li><a aria-current='{segment === "images" ? "page" : undefined}' href='images'>Bibliotèque d'Images</a></li>
