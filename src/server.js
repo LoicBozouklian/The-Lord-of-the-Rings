@@ -25,7 +25,9 @@ client.connect(err => {
     var db = client.db("personnages-principaux");
     var collection = db.collection("personnages");
     
-    var query = {};
+    var query = {
+    
+    };
     
     var cursor = collection.find(query);
     

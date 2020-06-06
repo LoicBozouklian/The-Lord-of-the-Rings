@@ -32,7 +32,9 @@
 	<title>Acceuil</title>
 </svelte:head>
 
-<h1> Le Seigneur des Anneaux </h1>
+<body class="bg-black bg-cover text-white">
+
+<h1 class="text-center text-4xl uppercase m-4 text-red-600 font-bold"> Le Seigneur des Anneaux </h1>
 
 <figure>
 	<img alt='Argonath' src='argonath.jpg'>
@@ -43,7 +45,8 @@
 
 Les Premier et Second Âges sont traités dans le Silmarillion. 
 J.R.R. Tolkien y retrace notamment la création des elfes, des hommes et des nains par les divinités créatrices, leur installation en Terre du Milieu, la guerre entre les elfes et Morgoth, une divinité renégate, qui entraîne avec lui un apprenti, Sauron, mais aussi les guerres entre Sauron et l’alliance des Hommes et des Elfes. 
-On y retrouve également le récit de la création des royaumes des Hommes, des conflits entre les Elfes et les Nains et les relations entre la Terre du Milieu et les terres éternelles, refuges des elfes ayant fait le choix de fuir face à leur déclin à partir du Second Âge. 
+On y retrouve également le récit de la création des royaumes des Hommes, des conflits entre les Elfes et les Nains et les relations entre la Terre du Milieu et les terres éternelles de Valinor, refuges des Elfes ayant fait le choix de fuir face à leur déclin à partir du Second Âge. 
+C'est un ouvrage fondateur de tout l'univers de J.R.R. Tolkien, on y découvre toutes les dynamiques qui sous-tendent les problématiques du Seigneur des Anneaux : des guerres ouvertes entre Sauron, les Elfes et les Hommes, au conflit interne dans la romance d'Aragorn et Arwen, en passant par la méfiance mutuelle entre Elfes et Nains.
 
 Le Troisième-Âge est un âge paisible qui voit les Hommes monter en puissance face au déclin des Elfes. 
 La fin de cette époque est traitée par Le Hobbit et la trilogie du Seigneur des Anneaux, c’est le temps du retour de Sauron. Le Hobbit relate la reconquête de la montagne solitaire, siège du pouvoir des Nains, jusqu’alors sous le joug du dragon du Nord, Smaug. Cette quête menée par Thorin Ecu-de-Chêne pose les fondations des évènements du Seigneur des Anneaux puisque l’on y découvre l’Anneau unique et la survie de Sauron dans la citadelle de Dol-Guldur. 
@@ -52,6 +55,6 @@ Vous découvrirez ici l’univers du Seigneur des Anneaux et de son adaptation p
 
 
 
-
+</body>
 
 
