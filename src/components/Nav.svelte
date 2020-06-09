@@ -48,7 +48,7 @@
 	}
 </style>
 
-<nav class="bg-black font-bold text-red-600">
+<nav class="bg-orange-200 font-bold text-red-800 object-center border border-red-800">
 	<ul>
 		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='acceuil'>Acceuil</a></li>
 		<li><a aria-current='{segment === "images" ? "page" : undefined}' href='images'>Bibliotèque d'Images</a></li>
@@ -59,3 +59,4 @@
 
 	</ul>
 </nav>
+

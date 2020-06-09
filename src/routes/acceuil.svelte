@@ -32,7 +32,7 @@
 	<title>Acceuil</title>
 </svelte:head>
 
-<body class="bg-black bg-cover text-white">
+<body class="bg-orange-200 bg-cover text-black">
 
 <h1 class="text-center text-4xl uppercase m-4 text-red-600 font-bold"> Le Seigneur des Anneaux </h1>
 

@@ -2,7 +2,7 @@
 	<title>Les Personnages principaux</title>
 </svelte:head>
 
-<body class="bg-black font-serif bg-cover text-white ">
+<body class="bg-beige font-serif bg-cover text-black ">
 
 
 	<h1 class="text-center text-4xl uppercase m-4 text-red-600 font-bold" >Les Races de la Terre du Milieu et les personnages principaux</h1>
@@ -12,11 +12,11 @@
 	<h1 class="font-bold text-center text-3xl uppercase m-4 text-red-600" >Les Hommes</h1>
 	<img class="float-left m-4 rounded border-4 border-white" src="neuf-rois-hommes.jpg" alt="Les Neuf Rois des Hommes ayant reçu des anneaux du pouvoir">
   	<p class="italic m-4">"Neuf anneaux furent donnés à la race des hommes qui par-dessus tout désiraient le pouvoir"</p>
-	<div name = "généralités" class="m-4">
-  		<p class="clear-right text-justify m-4">Les Hommes sont créés en même temps que les Elfes. Le "don des Hommes" est leur mortalité. Au Deuxième Âge, les Dunedains, hommes de Numénor se scindent en deux, ceux qui se révoltent contre les Dieux et attaquent Valinor en quête d'immortalité sous le conseil de Sauron, et ceux qui restent fidèles à leurs voeux envers les Dieux. 
-		En guise de punition, Numénor est submergée et les Dunedains restés fidèles s'installent en Terre du Milieu, menés par Elendil et ses deux fils. Ils fondent alors les royaumes du Gondor et de l'Arnor et s'allient avec les Elfes dans la guerre contre Sauron. 
-		Les autres survivants numénoriens s'installent quant à eux à Umbar, s'allient avec le Mordor et développent une armada pirate. De même, les Orientaux de l'Ouest et les Haradrim du Sud se sont rapidement alliés à Sauron pour s'opposer au Gondor. </p>
-	</div>
+	<p class="clear-right text-justify m-4">
+  	Les Hommes sont créés en même temps que les Elfes. Le "don des Hommes" est leur mortalité. Au Deuxième Âge, les Dunedains, hommes de Numénor se scindent en deux, ceux qui se révoltent contre les Dieux et attaquent Valinor en quête d'immortalité sous le conseil de Sauron, et ceux qui restent fidèles à leurs voeux envers les Dieux. 
+	En guise de punition, Numénor est submergée et les Dunedains restés fidèles s'installent en Terre du Milieu, menés par Elendil et ses deux fils. Ils fondent alors les royaumes du Gondor et de l'Arnor et s'allient avec les Elfes dans la guerre contre Sauron. 
+	Les autres survivants numénoriens s'installent quant à eux à Umbar, s'allient avec le Mordor et développent une armada pirate. De même, les Orientaux de l'Ouest et les Haradrim du Sud se sont rapidement alliés à Sauron pour s'opposer au Gondor. 
+	</p>
 	<div name = "Les personnages clefs"></div>
 </section>
 
@@ -69,10 +69,10 @@
 		<img class = "float-right m-4 rounded border-4 border-white h-48" src="gandalf-sarumane.jpg" alt="Sarumane et Gandalf dans les jardins d'Isengard">
 		<p class="clear-left text-justify m-4">
 		Les Istaris sont des divinités ayant pris une forme humaine. Ils ont été envoyés en Terre du Milieu au milieu du Troisième Âge pour veiller à ce que Sauron ne regagne pas son pouvoir d'antan. Ils sont au nombre de cinq. 
-		Le plus puissant de l'ordre est Sarumane le Blanc. Radagast le Brun veille à ce que le mal ne gagnent pas les forêts de la Terre du Milieu. Gandalf le Gris est un pélerin, il traverse la Terre du Milieu, offrant son conseil aux différents royaumes. Enfin viennent les deux mages Bleus dont on ne saît que très peu.  </p>
+		Le plus puissant de l'ordre est Sarpumane le Blanc. Radagast le Brun veille à ce que le mal ne gagnent pas les forêts de la Terre du Milieu. Gandalf le Gris est un pélerin, il traverse la Terre du Milieu, offrant son conseil aux différents royaumes. Enfin viennent les deux mages Bleus dont on ne saît que très peu.  </p>
 	</div>
 	<div name = "Gandalf"></div>
-	<div name = "Saruman"></div>
+	<div name = "Saroumane"></div>
 </section>
 
 <section name="les Serviteurs de Sauron">
@@ -106,13 +106,13 @@
 		Il en existe plusieurs types : les Orcs du Mordor sont les plus basiques. 
 		Les gobelins sont des Orcs qui se sont installés dans les cavernes. 
 		Les Orcs blancs comme Azög dans le Hobbit viennent de l'ancienne forteresse de Morgoth à Gundabad et sont terriblement puissants. 
-		Les Ourouk-haïs, créés par Sarumane, sont de bons guerriers, dotés d'une grande endurance et capables de résister aux rayons du soleil.
+		Les Ourouk-haïs, créés par Saroumane, sont de bons guerriers, dotés d'une grande endurance et capables de résister aux rayons du soleil.
 		</p>	
 	</div>
 	<div name = "les Hommes">
 		<img class="float-left m-4 rounded border-4 border-white h-56" src="harad-mamukil.jpg" alt="Troupe de haradrims et mamukils en chemin pour le Mordor">
 		<p class="clear-right text-justify m-4">
-		Enfin, Sauron a corrompu des Hommes : les Haradrims, les Orientaux et les Umbars, déjà sous le joug de Morgoth pour les deux premiers, ils entrent dans le Guerre de l'Anneau lors de la bataille de Minas-Tirith en menant un assault à dos de Mumakils. 
+		Enfin, Sauron a corrompu des Hommes : les Haradrims, les Orientaux et les Umbars, déjà sous le joug de Morgoth pour les deux premiers. Ils entrent dans la Guerre de l'Anneau lors de la bataille de Minas-Tirith en menant un assault à dos de Mumakils. 
 		Les corsaires d'Umbar sont quant à eux les descendants d'Hommes de Numenor qui avaient attaqué Valinor. Ces derniers sont des pirates aux ordres de Sauron, ils sont convoqués pour mener un assault par le fleuve Anduin lors de la Guerre de l'Anneau mais leur flotte et prise par Aragorn, Gimli, Legolas et l'armée des Morts. 
 		</p>
 	</div>
@@ -135,7 +135,7 @@
 	</div>
 	<div name = "les autres">
 		<p class="clear-right text-justify m-4">
-		Bien d'autres créatures peuplent la Terre du Milieu et entrent en jeu dans les évènements du Seigneur des Anneaux : les Ents, les Balrogs et les Dragons (la plupart sont défaits lors de la guerre contre Morgoth), les Wargs (loups que chevauchent les orques d'Isengard)...
+		Bien d'autres créatures peuplent la Terre du Milieu et entrent en jeu dans les évènements du Seigneur des Anneaux : les Ents, les Balrogs et les Dragons (la plupart sont défaits lors de la guerre contre Morgoth), les Wargs (loups que chevauchent les orques d'Isengard) ou encore l'Armée des Morts des rois du Gondor...
 		</p>
 	</div>
 
