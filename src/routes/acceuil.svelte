@@ -1,38 +1,16 @@
-<style>
-	h1, figure {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
 	<title>Acceuil</title>
 </svelte:head>
 
+<<<<<<< Updated upstream
 <h1> Le Seigneur des Anneaux </h1>
+=======
+
+
+<body class="bg-cover text-black">
+
+<h1 class="text-center text-4xl uppercase m-4"> Le Seigneur des Anneaux </h1>
+>>>>>>> Stashed changes
 
 <figure>
 	<img alt='La maison de Bilbon dans la Comté' src='hobbit-home.jpg'>

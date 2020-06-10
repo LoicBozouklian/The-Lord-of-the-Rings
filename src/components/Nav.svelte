@@ -3,15 +3,12 @@
 </script>
 
 <style>
+	
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0 1em;
-	}
-
-	ul {
-		margin: 0;
-		padding: 0;
+		border-bottom: 3px solid #505C6A;
+		background-color: #E0DDD6;
+		font-family:"Cormorant-Garamond";
+		width: fit-content;
 	}
 
 	/* clearfix */
@@ -26,36 +23,24 @@
 		float: left;
 	}
 
-	[aria-current] {
-		position: relative;
-		display: inline-block;
-	}
-
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
-		display: block;
-		bottom: -1px;
-	}
-
 	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
+		color: #6E8FA2;
 	}
+
 </style>
 
+<<<<<<< Updated upstream
 <nav>
+=======
+<nav class="font-bold p-20 text-lg object-center uppercase text-base py-4 ">
+>>>>>>> Stashed changes
 	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='acceuil'>Acceuil</a></li>
-		<li><a aria-current='{segment === "images" ? "page" : undefined}' href='images'>Bibliotèque d'Images</a></li>
-		<li><a rel=prefetch aria-current='{segment === "personnages" ? "page" : undefined}' href='personnages'>Les Personnages principaux</a></li>
-		<li><a rel=prefetch aria-current='{segment === "carte" ? "page" : undefined}' href='carte'>Les Grands Lieux de la Terre du Milieu</a></li>
-		<li><a rel=prefetch aria-current='{segment === "quizz" ? "page" : undefined}' href='quizz'>Test de connaissances</a></li>
-		<li><a rel=prefetch aria-current='{segment === "musique" ? "page" : undefined}' href='musique'>Univers musical</a></li>
+		<li><a aria-current='{segment === "acceuil" ? "page" : undefined}' href='acceuil' class="p-3 pl-3 m-auto">Acceuil</a></li>
+		<li><a aria-current='{segment === "images" ? "page" : undefined}' href='images' class="p-3 m-auto">Bibliotèque d'Images</a></li>
+		<li><a rel=prefetch aria-current='{segment === "personnages" ? "page" : undefined}' href='personnages' class="p-3 m-auto">Personnages principaux</a></li>
+		<li><a rel=prefetch aria-current='{segment === "carte" ? "page" : undefined}' href='carte' class="p-3 m-auto">La Terre du Milieu</a></li>
+		<li><a rel=prefetch aria-current='{segment === "quizz" ? "page" : undefined}' href='quizz' class="p-3 m-auto">Test de connaissances</a></li>
+		<li><a rel=prefetch aria-current='{segment === "musique" ? "page" : undefined}' href='musique' class="p-3 m-auto">Univers musical</a></li>
 
 	</ul>
 </nav>
