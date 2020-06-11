@@ -8,7 +8,6 @@
 		border-bottom: 3px solid #505C6A;
 		background-color: #E0DDD6;
 		font-family:"Cormorant-Garamond";
-		width: fit-content;
 	}
 
 	/* clearfix */
@@ -29,13 +28,9 @@
 
 </style>
 
-<<<<<<< Updated upstream
-<nav>
-=======
-<nav class="font-bold p-20 text-lg object-center uppercase text-base py-4 ">
->>>>>>> Stashed changes
-	<ul>
-		<li><a aria-current='{segment === "acceuil" ? "page" : undefined}' href='acceuil' class="p-3 pl-3 m-auto">Acceuil</a></li>
+<nav class="p-6 w-screen object-cover">
+	<ul class="font-bold text-lg flex justify-around uppercase">
+		<li><a aria-current='{segment === "undefined" ? "page" : undefined}' href='acceuil' class="p-3 pl-3 m-auto">Acceuil</a></li>
 		<li><a aria-current='{segment === "images" ? "page" : undefined}' href='images' class="p-3 m-auto">Bibliotèque d'Images</a></li>
 		<li><a rel=prefetch aria-current='{segment === "personnages" ? "page" : undefined}' href='personnages' class="p-3 m-auto">Personnages principaux</a></li>
 		<li><a rel=prefetch aria-current='{segment === "carte" ? "page" : undefined}' href='carte' class="p-3 m-auto">La Terre du Milieu</a></li>

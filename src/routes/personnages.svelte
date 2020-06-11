@@ -2,52 +2,6 @@
 	<title>Les Personnages principaux</title>
 </svelte:head>
 
-<<<<<<< Updated upstream
-
-<div name="les Hommes">
-	<div name = "généralités"></div>
-	<div name = "Les Hommes du Rohan"></div>
-	<div name = "Les Hommes du Gondor"></div>
-	<div name = "Les personnages clefs"></div>
-</div>
-
-<div name="les Elfes">
-	<div name = "généralités"></div>
-	<div name = "Les personnages clefs"></div>
-</div>
-
-<div name="les Nains">
-	<div name = "généralités"></div>
-	<div name = "Les personnages clefs"></div>
-</div>
-
-<div name="les Hobbits">
-	<div name = "généralités"></div>
-	<div name = "Les personnages clefs"></div>
-</div>
-
-<div name="les Magiciens">
-	<div name = "généralités"></div>
-	<div name = "Les personnages clefs se battant pour le Bien"></div>
-	<div name = "Les personnages clefs se battant pour le Mal"></div>
-</div>
-
-<div name="les Serviteurs de Sauron">
-	<div name = "généralités"></div>
-	<div name = "les Nazguls"></div>
-	<div name = "les Orcs"></div>
-	<div name = "les Gobelins"></div>
-	<div name = "les Ourouks"></div>
-	<div name = "les Autres"></div>
-</div>
-
-<div name="les Créatures">
-	<div name = "les Aigles"></div>
-	<div name = "les montures Nazgul"></div>
-	<div name = "les Ouargs"></div>
-	<div name = "les Autres"></div>
-</div>
-=======
 <style>
 	body {
 		background-color: #E0DDD6;
@@ -151,7 +105,7 @@
 	<div class="md:flex md:items-start">
 
 		<div id="encadre" name="Les Hobbits" class="m-4 max-w-md rounded overflow-hidden shadow-lg border-4 md:inline-block lg:inline-block xl:inline-block sm:flow-root">
-			<img class="w-full" src="hobbits.jpg" alt="famille de Hobbits">
+			<img class="w-full" src="hobbits.jpg" alt="la véritable passion des Hobbits est la boustifaille">
 			<div class="px-6 py-4">
 				<h2 class="font-bold text-center text-xl mb-2">Les Hobbits</h2>
 				<p class="text-black text-base text-justify">
@@ -172,7 +126,7 @@
 		</div>
 
 		<div id="encadre" name="Les Mages" class="m-4 max-w-md rounded overflow-hidden shadow-lg border-4 md:inline-block lg:inline-block xl:inline-block sm:flow-root">
-			<img class="w-full" src="gandalf-saroumane.jpg" alt="Gandalf et Saroumane dans les jardins d'Isengard">
+			<img class="w-full" src="saroumane-gandalf.jpg" alt="Gandalf et Saroumane dans les jardins d'Isengard">
 			<div class="px-6 py-4">
 				<h2 class="font-bold text-center text-xl mb-2">Les Mages</h2>
 				<p class="text-black text-base text-justify">
@@ -188,7 +142,7 @@
 		</div>
 
 		<div id="encadre" name="Les Créatures" class="m-4 max-w-md rounded overflow-hidden shadow-lg border-4 md:inline-block lg:inline-block xl:inline-block sm:flow-root">
-			<img class="w-full" src="aigles.jpg" alt="Les Aigles survolant les Monts Brumeux">
+			<img class="w-full" src="aigles.jpg" alt="Les Aigles sauvant la compagnie de Thorin-Ecu-de-Chêne">
 			<div class="px-6 py-4">
 				<h2 class="font-bold text-center text-xl mb-2">Les Créatures</h2>
 				<p class="text-black text-base text-justify">
@@ -230,7 +184,7 @@
 			</div>
 
 			<div id="encadre" name="Nazguls" class="m-4 max-w-md rounded overflow-hidden shadow-lg border-4 md:inline-block lg:inline-block xl:inline-block sm:flow-root">
-				<img class="w-full" src="nazguls.jpg" alt="Cinq Nazguls attaquant les Hobbits à la tour de garde d'Amon-Dîl">
+				<img class="w-full" src="nazguls.jpg" alt="Cinq Nazguls attaquant les Hobbits à la tour de garde d'Amon-Sul">
 				<div class="px-6 py-4">
 					<h2 class="font-bold text-center text-xl mb-2">Les forces du Mal</h2>
 					<p class="text-black text-base text-justify">
@@ -273,12 +227,12 @@
 			</div>
 	</div>
 
-	<h1 class="text-center text-4xl uppercase font-bold text-titre" >Les Personnages Principaux</h1>
+	<h1 class="text-center text-4xl uppercase font-bold text-titre p-4" >Les Personnages Principaux</h1>
 
-	<div class="inline-grid grid-cols-3 justify-between"> 
+	<div class="inline-grid grid-cols-3"> 
 			{#each personnages as perso}
-			<div id="encadre" class="border-2 rounded-lg p-6 space-x-3">
-				<img class="w-2/3" src="{perso.Nom}.jpg" alt="{perso.Nom}.jpg">
+			<div id="encadre" class="m-4 max-w-md rounded overflow-hidden shadow-lg border-4 md:inline-block lg:inline-block xl:inline-block sm:flow-root">
+				<img class="w-full" src="{perso.Nom}.jpg" alt="{perso.Nom}">
 				<h2 class="font-bold text-center text-2xl mb-2">{perso.Nom}</h2>
 				<br><p><span class="font-bold">Race : </span>{perso.Race}</p>
 				<br><p><span class="font-bold">Surnoms : </span>{perso.Surnoms}</p>
@@ -294,4 +248,3 @@
 
 </body>
 
->>>>>>> Stashed changes
