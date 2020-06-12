@@ -1,0 +1,51 @@
+@font-face {
+font-family: 'Hobbiton BrushhandHobbiton brush';
+font-style: normal;
+font-weight: normal;
+src: local('Hobbiton BrushhandHobbiton brush'), url('hobbitonbrushhand.woff') format('woff');
+}
+
+body {
+  background: #E0DDD6;
+}
+
+h1 {
+  color: #505C6A;
+  font-family: 'Cinzel', serif;
+}
+
+
+     #test {
+          display: block;
+          width: 200px; height: 200px;
+          margin-top: -50px;
+          margin: calc(((204px * 1.4142) - 204px) / 2);
+          animation: example 30s linear 0s infinite;
+          }
+
+     @keyframes example {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+          }
+
+
+p {
+  color: #6E8FA2;
+  font-family: 'Cormorant', serif, 'Garamond';
+}
+
+form {
+  text-align: left;
+}
+
+.button {
+  background-color: antiquewhite;
+  font-family: 'Cormorant', serif, 'Garamond';
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  margin-top: 40px;
+
+}
