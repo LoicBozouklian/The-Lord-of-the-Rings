@@ -1,0 +1,231 @@
+@font-face {
+font-family: 'Hobbiton BrushhandHobbiton brush';
+font-style: normal;
+font-weight: normal;
+src: local('Hobbiton BrushhandHobbiton brush'), url('hobbitonbrushhand.woff') format('woff');
+}
+
+body {
+  background: #E0DDD6;
+}
+
+@media screen and (min-width: 501px) {
+  h1 {
+    font-family: 'Cormorant', 'Garamond';
+    color:#505C6A;
+    font-size: 50px;
+  }
+
+
+  h2 {
+    font-family: 'Cormorant', serif, 'Garamond';
+    color: #6E8FA2;
+    font-size: 20px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-family: 'Cormorant', 'Garamond';
+    color:#505C6A;
+    font-size: 30px;
+  }
+
+
+  h2 {
+    font-family: 'Cormorant', serif, 'Garamond';
+    color: #6E8FA2;
+    font-size: 10px;
+    margin-top: -20px;
+  }
+}
+
+
+.grid {
+  max-width: 900px;
+  max-height: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7px;
+  grid-row-gap: 2px;
+}
+
+.g {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
+/* Conteneur principal */
+.overlay-image {
+ position: relative;
+}
+
+/* Image originale */
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+/* Texte original */
+@media screen and (min-width: 501px) {
+  .overlay-image .text {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-family: 'Cormorant', serif, 'Garamond';
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .overlay-image .text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-family: 'Cormorant', serif, 'Garamond';
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overlay-image .text {
+  visibility: hidden;
+  }
+}
+
+
+/* Overlay */
+.overlay-image .hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+}
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+ opacity: 1;
+}
+
+.overlay-image .normal {
+ transition: .5s ease;
+}
+.overlay-image:hover .normal {
+ opacity: 0;
+}
+.overlay-image .hover {
+ background-color: rgba(0,0,0,0.5);
+}
+
+
+/* BIS */
+
+/* Conteneur principal */
+.overlay-image-bis {
+ position: relative;
+}
+
+/* Image originale */
+.overlay-image-bis .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+/* Texte original */
+@media screen and (min-width: 501px) {
+.overlay-image-bis .text {
+ color: #fff;
+ font-size: 30px;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+ font-family: 'Cormorant', 'Garamond';
+}
+}
+
+@media screen and (max-width: 500px) {
+.overlay-image-bis .text {
+ color: #fff;
+ font-size: 20px;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+ font-family: 'Cormorant', 'Garamond';
+}
+}
+
+@media screen and (max-width: 400px) {
+.overlay-image-bis .text {
+ visibility: hidden;
+}
+}
+
+/* Overlay */
+.overlay-image-bis .hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+}
+/* Apparition overlay sur passage souris */
+.overlay-image-bis:hover .hover {
+ opacity: 1;
+}
+
+.overlay-image-bis .normal {
+ transition: .5s ease;
+}
+.overlay-image-bis:hover .normal {
+ opacity: 0;
+}
+.overlay-image-bis .hover {
+ background-color: rgba(0,0,0,0.5);
+}
+
+.conteneur {
+  display: inline-block;
+  margin: 0px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+.conteneur .texte {
+  font-family: "Open Sans", "Segoe UI", Helvetica, Arial;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-23%, -30%);
+  z-index: -1;
+}
+
