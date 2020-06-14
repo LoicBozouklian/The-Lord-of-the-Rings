@@ -136,7 +136,7 @@ document.quest.reset();
 <body>
 	    <center><h1>CONNAISSEZ-VOUS BIEN LE SEIGNEUR DES ANNEAUX ?</h1><center>
     <div class="gif">
-      <center><img id="test" src="Image/One Ring Inscription.png"></center>
+      <center><img id="test" src="One Ring Inscription.png"></center>
     </div>
 
 
